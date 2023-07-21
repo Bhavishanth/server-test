@@ -25,7 +25,7 @@ const connect = () => {
 
 //middlewares
 app.use(cors({
-  origin: ['https://silly-meringue-935e2f.netlify.app']
+  origin: ['https://silly-meringue-935e2f.netlify.app', 'http://localhost:3000']
 }));
 app.use(cookieParser())
 app.use(express.json());
