@@ -24,7 +24,7 @@ const connect = () => {
 };
 
 //middlewares
-app.use(cors());
+app.use(cors("https://silly-meringue-935e2f.netlify.app"));
 app.use(cookieParser())
 app.use(express.json());
 app.use("/api/auth", authRoutes);
